@@ -100,7 +100,7 @@ async def on_message(message):
         # send help menu
         await message.channel.send(embed=embedVar)
 
-    # 9quote, print a random quote from a random character
+    # $quote, print a random quote from a random character
     elif msg.startswith("$quote"):
 
         # generate a random index to get a random character
